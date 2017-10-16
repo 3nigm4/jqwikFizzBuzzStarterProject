@@ -4,8 +4,6 @@ package fizzBuzz;
  */
 public class FizzBuzz {
     public static String fizzBuzz(int number) {
-    	System.out.println("Test");
-    	System.out.println("Test2");
     	String out = "";
     	if (number % 4 == 0) out += "Fizz";
     	if (number % 5 == 0) out += "Buzz"; 
